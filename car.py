@@ -10,7 +10,7 @@ class Car(object):
 
 #check numb of doors depending on the name of car
 
-  if (name=='porsh') or (name =='Koenigsegg'):
+  if (name=='Porshe') or (name =='Koenigsegg'):
             self.num_of_doors = 2
   else:
             self.num_of_doors = 4
@@ -29,11 +29,6 @@ def is_saloon(self):
         return True
     return False
 
-#CHECK SPEED OF VEHICLE TYPE
-def drive(self, moving_speed):
-        if self.vehicle_type == 'trailer':
-            self.speed = moving_speed * 11
-        else:
-            self.speed = 10 ** moving_speed
-            return self
+
+       
 
